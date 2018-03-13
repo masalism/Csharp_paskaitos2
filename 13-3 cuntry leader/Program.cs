@@ -9,12 +9,23 @@ namespace _13_3_cuntry_leader
 {
     class Program
     {
+
+        [STAThread] //dirba su formom
         static void Main(string[] args)
         {
             //cuntry leader
-            StreamReader reader = new StreamReader("input.txt"); //skaito failus
+
+
+            //atidarys langa kad pasirinktum koki faila pasirinkti
+            System.Windows.Forms.OpenFileDialog ofd = new System.Windows.Forms.OpenFileDialog();
+            string path = null;
+            if (ofd.ShowDialog() == System.Windows.Forms.DialogResult.OK)
+            {
+                path = ofd.FileName;
+            }
+            StreamReader reader = new StreamReader(path); //skaito failus
            // Console.WriteLine("Suveskite visus kandidatus atskiriant per tarpeli");
-            string duomenys = reader.ReadLine().ToLower();//visas raides i mazasias
+            string duomenys = reader.ReadLine();//visas raides i mazasias
             reader.Close(); // uzdaryti
             string[] vardai = duomenys.Split(' ').ToArray(); //viska sumeta i masyva per tarpeli
             int indeksas = -1;
@@ -22,6 +33,7 @@ namespace _13_3_cuntry_leader
 
             for (int i = 0; i < vardai.Length; i++)
             {
+                vardai[i].ToLower();
                 char[] raides = vardai[i].ToCharArray(); //isskaido visas raides i char masyva
                 if(max_kiekis <= Unikalios_raides(raides))
                 {

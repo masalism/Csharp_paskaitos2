@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{61EDB122-89ED-414C-B574-B20CB38971EC}</ProjectGuid>
+    <ProjectGuid>{8B631F50-9E46-4EAD-A01B-76BBBA0F7ECD}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>_13_3_cuntry_leader</RootNamespace>
-    <AssemblyName>13-3 cuntry leader</AssemblyName>
+    <RootNamespace>_13_4</RootNamespace>
+    <AssemblyName>13-4</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -34,7 +34,6 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
-    <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
