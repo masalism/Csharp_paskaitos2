@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Baigiamasis atsiskaitymas", "Baigiamasis atsiskaitymas", "{CF1E0A78-C919-4103-BC4A-C544BB08C55B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1 uzduotis", "1 uzduotis\1 uzduotis.csproj", "{3CFD1EAF-0F64-4AA7-93B2-1DBC77C87873}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3 uzduotis", "3 uzduotis\3 uzduotis.csproj", "{BAEB5B5D-43B5-4C35-A092-35970B1A652F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3CFD1EAF-0F64-4AA7-93B2-1DBC77C87873}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CFD1EAF-0F64-4AA7-93B2-1DBC77C87873}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3CFD1EAF-0F64-4AA7-93B2-1DBC77C87873}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3CFD1EAF-0F64-4AA7-93B2-1DBC77C87873}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BAEB5B5D-43B5-4C35-A092-35970B1A652F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BAEB5B5D-43B5-4C35-A092-35970B1A652F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BAEB5B5D-43B5-4C35-A092-35970B1A652F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BAEB5B5D-43B5-4C35-A092-35970B1A652F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3CFD1EAF-0F64-4AA7-93B2-1DBC77C87873} = {CF1E0A78-C919-4103-BC4A-C544BB08C55B}
+		{BAEB5B5D-43B5-4C35-A092-35970B1A652F} = {CF1E0A78-C919-4103-BC4A-C544BB08C55B}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B59AD1AE-0F22-451F-BC3D-5ED2A14810A3}
+	EndGlobalSection
+EndGlobal

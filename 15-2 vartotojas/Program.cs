@@ -16,7 +16,7 @@ namespace _15_2_vartotojas
             GimimioMetai = gimimioMetai;
             Adresas = adresas;
         }
-        
+
 
         public int UserId { get; set; }
         public string Name { get; set; }

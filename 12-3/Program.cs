@@ -25,7 +25,6 @@ namespace _12_3
         {
             return a + b;
         }
-
         static int Minusas(int a, int b)
         {
             return a - b;
