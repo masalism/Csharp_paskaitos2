@@ -13,8 +13,6 @@ namespace _3_uzduotis
             Program programa = new Program();
             int[] skaiciai = { 5, 8, 6, 4, 3, 5, 7, 5, 6, 4, 3, 7, 8, 5, 3 };
             Console.WriteLine("Nelyginiu skaicius: " + programa.Kiek_Nelyginiu(skaiciai));
-
-
         }
 
         private int Kiek_Nelyginiu(int[] skaiciai)
@@ -27,7 +25,6 @@ namespace _3_uzduotis
                     nelygsk++;
                 }
             }
-
             return nelygsk;
         }
     }
